@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | Frontend Architect & UI Specialist</title>
+    <meta name="description" content="World-class frontend developer specializing in HTML, CSS, and JavaScript. Creating exceptional digital experiences with cutting-edge web technologies.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">AM<span class="dot">.</span></a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Frontend Architect</span> &<br>
+                    <span class="highlight">UI Specialist</span>
+                </h1>
+                <p class="hero-subtitle">
+                    I engineer exceptional digital experiences with cutting-edge <span class="tech">HTML5</span>, 
+                    <span class="tech">CSS3</span>, and <span class="tech">JavaScript</span>. Transforming complex problems 
+                    into elegant, performant solutions for global industry leaders.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Connect With Me</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                        <span class="code-title">component.js</span>
+                    </div>
+                    <pre><code>// Industry-grade component architecture
+class Portfolio {
+  constructor() {
+    this.techStack = ['HTML5', 'CSS3', 'ES6+'];
+    this.frameworks = ['React', 'Vue', 'Svelte'];
+    this.methodologies = ['Atomic Design', 'BEM', 'Mobile-First'];
+  }
+  
+  build(solution) {
+    return this.createOptimized(solution);
+  }
+}</code></pre>
+                </div>
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <h2 class="section-title">Core <span class="gradient-text">Expertise</span></h2>
+            <p class="section-subtitle">Mastery of modern frontend technologies and industry best practices</p>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Semantic HTML5</h3>
+                    <p>Architecting accessible, SEO-optimized markup with structured data and WAI-ARIA compliance for enhanced user experiences.</p>
+                    <ul class="expertise-list">
+                        <li>Accessibility (a11y) First</li>
+                        <li>SEO Optimization</li>
+                        <li>Microdata & Structured Data</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Advanced CSS3</h3>
+                    <p>Creating visually stunning interfaces with CSS Grid, Flexbox, custom properties, animations, and responsive design patterns.</p>
+                    <ul class="expertise-list">
+                        <li>CSS Grid & Flexbox</li>
+                        <li>CSS Custom Properties</li>
+                        <li>Animation & Transitions</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>Modern JavaScript</h3>
+                    <p>Building interactive experiences with ES6+, modular architecture, performance optimization, and cross-browser compatibility.</p>
+                    <ul class="expertise-list">
+                        <li>ES6+ & Modular JS</li>
+                        <li>Performance Optimization</li>
+                        <li>Progressive Enhancement</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive user interfaces with user-centered design principles, design systems, and prototyping tools.</p>
+                    <ul class="expertise-list">
+                        <li>Design Systems</li>
+                        <li>User-Centered Design</li>
+                        <li>Prototyping & Testing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Industry <span class="gradient-text">Projects</span></h2>
+            <p class="section-subtitle">Real-world solutions delivering measurable business impact</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FinTech Dashboard</h3>
+                        <p>Real-time financial analytics platform with interactive data visualization, complex filtering, and responsive design for a Fortune 500 client.</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-chart-line"></i> +42% User Engagement</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 95% Performance Score</span>
+                        </div>
+                        <a href="#" class="project-link">View Case Study →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tech">
+                            <span>CSS Grid</span>
+                            <span>JavaScript</span>
+                            <span>WebGL</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>High-performance online store with custom product configurator, 3D visualization, and seamless checkout experience for a global retailer.</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-shopping-cart"></i> +28% Conversion</span>
+                            <span><i class="fas fa-mobile-alt"></i> Mobile-First</span>
+                        </div>
+                        <a href="#" class="project-link">View Case Study →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tech">
+                            <span>PWA</span>
+                            <span>Service Workers</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Healthcare Portal</h3>
+                        <p>Progressive Web Application for patient management with offline functionality, secure data handling, and telehealth integration.</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-heartbeat"></i> HIPAA Compliant</span>
+                            <span><i class="fas fa-bolt"></i> Instant Loading</span>
+                        </div>
+                        <a href="#" class="project-link">View Case Study →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional <span class="gradient-text">Journey</span></h2>
+            <p class="section-subtitle">Leading digital transformation for industry pioneers</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Lead Frontend Architect</h3>
+                        <h4>Global Tech Solutions Inc.</h4>
+                        <p>Orchestrated frontend architecture for enterprise applications serving 2M+ users. Led a team of 8 developers in implementing design systems and performance optimization strategies.</p>
+                        <div class="timeline-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Senior UI Developer</h3>
+                        <h4>Digital Innovation Lab</h4>
+                        <p>Engineered responsive web applications for financial and healthcare clients. Implemented accessibility standards achieving WCAG 2.1 AA compliance across all projects.</p>
+                        <div class="timeline-tech">
+                            <span>CSS Grid</span>
+                            <span>SASS</span>
+                            <span>Vue.js</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2016 - 2018</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <h4>Creative Digital Agency</h4>
+                        <p>Developed interactive websites and web applications for diverse clients. Pioneered mobile-first responsive design approach that became agency standard.</p>
+                        <div class="timeline-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>jQuery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Build<br><span class="gradient-text">Something</span> Great</h2>
+                    <p class="contact-subtitle">Ready to elevate your digital presence? Let's discuss how my expertise can drive your project's success.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:alex@example.com">hello@alexmorgan.dev</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Based In</h4>
+                                <p>San Francisco, CA · Remote Global</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Available for select projects Q3 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Codepen"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="project">Project Details</label>
+                        <textarea id="project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">I typically respond within 24 hours</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">AM<span class="dot">.</span></a>
+                <p>Architecting the future of web experiences with precision code and thoughtful design.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#expertise">Expertise</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="footer-copyright">© <span id="currentYear"></span> Alex Morgan. All rights reserved.</p>
+                <p class="footer-deploy">Deployed on <span class="vercel">Vercel</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
